@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "677b6edd-a563-4935-a923-9cc7c6c09b5d",
+		"name": "spring-cloud-microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Omair\",\n    \"lastName\": \"Iqbal\",\n    \"email\": \"omair95@protonmail.com\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/customers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
